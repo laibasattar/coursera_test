@@ -5,17 +5,17 @@
 }
 h1 {
   text-align: center;
-  font-size: 31px;
+  font-size: 75%;
   font-weight: bold;
   margin-top: 1.5em;
   margin-bottom: 1em;
 }
 h2 {
   text-align: center;
-  font-size: 24px;
+  font-size: 25%;
   font-weight: bold;
-  border-left: 0.1em solid black;
-  border-bottom: 0.1em solid black;
+  border-left: ]1px solid black;
+  border-bottom: 1px solid black;
 }
 #chicken {
   background-color: rgb(238, 174, 196);
@@ -46,10 +46,19 @@ p {
   margin-left: 7px;
 }
 div > div {
-  border: 0.18em solid black;
+  border: 1px solid black;
   margin-bottom: 1em;
   background-color: gray;
   position: relative;
+}
+.card {
+  border: none;
+  position: relative;
+  height: 15px;
+}
+.card > * {
+  position: absolute;
+  right: 0;
 }
 @media (min-width: 992px) {
   .col-lg-1,
@@ -212,14 +221,4 @@ div > div {
   .col-sm-12 {
     width: 84%;
   }
-}
-
-.card {
-  border: none;
-  position: relative;
-  height: 15px;
-}
-.card > * {
-  position: absolute;
-  right: 0;
 }
