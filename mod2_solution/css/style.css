@@ -16,12 +16,6 @@ h2 {
   font-weight: bold;
   border-left: 0.1em solid black;
   border-bottom: 0.1em solid black;
-  width: 180px;
-  margin-top: 0px;
-  margin-bottom: 5px;
-  position: relative;
-  top: 0.3px;
-  left: 11.9em;
 }
 #chicken {
   background-color: rgb(238, 174, 196);
@@ -218,4 +212,10 @@ div > div {
   .col-sm-12 {
     width: 84%;
   }
+}
+
+.card {
+  display: flex;
+  border: none;
+  justify-content: flex-end;
 }
