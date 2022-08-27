@@ -215,7 +215,11 @@ div > div {
 }
 
 .card {
-  display: flex;
   border: none;
-  justify-content: flex-end;
+  position: relative;
+  height: 15px;
+}
+.card > * {
+  position: absolute;
+  right: 0;
 }
