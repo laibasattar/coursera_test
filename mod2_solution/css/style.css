@@ -16,6 +16,7 @@ h2 {
   font-weight: bold;
   border-left: 0.1em solid black;
   border-bottom: 0.1em solid black;
+  width: 165px;
 }
 #chicken {
   background-color: rgb(238, 174, 196);
