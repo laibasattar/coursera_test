@@ -1,2 +1,2 @@
 # coursera_test
-Coursera test repository 
+Module 2 Coding Assignment with Responsive layout.
